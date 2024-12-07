@@ -1,6 +1,7 @@
 #include "fllama_tokenize.h"
 
 #include <mutex>
+#include <memory>
 
 #if TARGET_OS_IOS
 // iOS-specific includes
